@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+#panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.parentBox {
+    width: 670px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px
+    rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    width: 80%;
+    height: 20%;
+    border: 1px solid red;
+}
+
+section {
+    width: 80%;
+    height: 50%;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    width: 80%;
+    height: 10%;
+    border:  1px solid green;
+}
+
+header .headLine {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068FF;
+}
+
+section div{
+    width: 100%;
+}
+
+section input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
